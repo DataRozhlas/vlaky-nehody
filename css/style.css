@@ -1,0 +1,11 @@
+#mapa_nehod {
+    width:100%;
+    padding-top: 60%;
+}
+
+.ttip {
+    padding: 7px;
+    background-color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}
