@@ -1,11 +1,12 @@
 #mapa_nehod {
     width:100%;
-    padding-top: 60%;
+    height: 500px;
 }
 
-.ttip {
-    padding: 7px;
+#legend {
     background-color: white;
+    padding: 5px;
     border-radius: 10px;
-    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
 }
