@@ -66,7 +66,7 @@ map.on('load', () => {
         'heatmap-weight': [
           'interpolate', ['linear'], ['+', ['get', 'ex'], ['get', 'tr'], ['get', 'lr']],
           0, 0,
-          6, 1
+          4, 1
         ],
         // Increase the heatmap color weight weight by zoom level
         // heatmap-intensity is a multiplier on top of heatmap-weight
@@ -91,7 +91,7 @@ map.on('load', () => {
         'heatmap-radius': [
           'interpolate', ['linear'], ['zoom'],
           0, 8,
-          6, 20
+          4, 20
         ],
         // prechod mezi heatmapou a body
         'heatmap-opacity': [
@@ -115,19 +115,18 @@ map.on('load', () => {
           'interpolate', ['linear'], ['zoom'],
           7, ['interpolate', ['linear'], ['+', ['get', 'ex'], ['get', 'tr'], ['get', 'lr']],
             1, 1,
-            6, 6
+            4, 6
           ],
           16, ['interpolate', ['linear'], ['+', ['get', 'ex'], ['get', 'tr'], ['get', 'lr']],
             1, 10,
-            6, 50
+            4, 50
           ]
         ],
         // barva podle mnozstvi mrtvych a zranenych
         'circle-color': [
           'interpolate', ['linear'], ['+', ['get', 'ex'], ['get', 'tr'], ['get', 'lr']],
-          1, 'rgba(252,187,161,0)',
-          4, 'rgb(251,106,74)',
-          6, 'rgb(153,0,13)'
+          0, 'rgb(252,187,161)',
+          4, 'rgb(153,0,13)'
         ],
         'circle-stroke-color': 'white',
         'circle-stroke-width': 1,
@@ -152,7 +151,7 @@ map.on('zoomend', e => {
   }
 })
 
-function tratName(val) {
+function tratName (val) {
   if (val.length > 4) {
     return val
   } else {
