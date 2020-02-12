@@ -5,6 +5,7 @@
 
 #legend {
     background-color: white;
+    max-width: 70vw;
     padding: 5px;
     border-radius: 10px;
     margin-top: 10px;

@@ -14,7 +14,7 @@ const map = new mapboxgl.Map({
           'https://a.tile.openstreetmap.org/{z}/{x}/{y}.png'
         ],
         'tileSize': 256,
-        'attribution': 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>.'
+        'attribution': 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, data <a href="http://www.dicr.cz/">drážní inspekce</a>.'
       }
     },
     'layers': [
@@ -66,7 +66,7 @@ map.on('load', () => {
         'heatmap-weight': [
           'interpolate', ['linear'], ['+', ['get', 'ex'], ['get', 'tr'], ['get', 'lr']],
           0, 0,
-          18, 1
+          6, 1
         ],
         // Increase the heatmap color weight weight by zoom level
         // heatmap-intensity is a multiplier on top of heatmap-weight
@@ -80,24 +80,24 @@ map.on('load', () => {
         // to create a blur-like effect.
         'heatmap-color': [
           'interpolate', ['linear'], ['heatmap-density'],
-          0.0, 'rgba(33,102,172,0)',
-          0.2, 'rgb(103,169,207)',
-          0.4, 'rgb(209,229,240)',
-          0.6, 'rgb(253,219,199)',
-          0.8, 'rgb(239,138,98)',
-          1.0, 'rgb(178,24,43)'
+          0.0, 'rgba(252,187,161,0)',
+          0.2, 'rgb(252,146,114)',
+          0.4, 'rgb(251,106,74)',
+          0.6, 'rgb(239,59,44)',
+          0.8, 'rgb(203,24,29)',
+          1.0, 'rgb(153,0,13)'
         ],
-        // Adjust the heatmap radius by zoom level
+        // polomer podle zoomu
         'heatmap-radius': [
           'interpolate', ['linear'], ['zoom'],
-          0, 2,
-          18, 20
+          0, 8,
+          6, 20
         ],
-        // Transition from heatmap to circle layer by zoom level
+        // prechod mezi heatmapou a body
         'heatmap-opacity': [
           'interpolate', ['linear'], ['zoom'],
           7, 1,
-          9, 0
+          10, 0
         ]
       }
     }
@@ -110,30 +110,28 @@ map.on('load', () => {
       'source': 'nehody',
       'minzoom': 8,
       'paint': {
-      // Size circle radius by earthquake magnitude and zoom level
+      // radius bodu podle zoomu a poctu mrtvych a ranenych
         'circle-radius': [
           'interpolate', ['linear'], ['zoom'],
           7, ['interpolate', ['linear'], ['+', ['get', 'ex'], ['get', 'tr'], ['get', 'lr']],
             1, 1,
-            18, 6
+            6, 6
           ],
           16, ['interpolate', ['linear'], ['+', ['get', 'ex'], ['get', 'tr'], ['get', 'lr']],
             1, 10,
-            18, 50
+            6, 50
           ]
         ],
-        // Color circle by earthquake magnitude
+        // barva podle mnozstvi mrtvych a zranenych
         'circle-color': [
           'interpolate', ['linear'], ['+', ['get', 'ex'], ['get', 'tr'], ['get', 'lr']],
           1, 'rgba(252,187,161,0)',
-          5, 'rgb(254,229,217)',
-          9, 'rgb(251,106,74)',
-          12, 'rgb(203,24,29)',
-          18, 'rgb(153,0,13)'
+          4, 'rgb(251,106,74)',
+          6, 'rgb(153,0,13)'
         ],
         'circle-stroke-color': 'white',
         'circle-stroke-width': 1,
-        // Transition from heatmap to circle layer by zoom level
+        // prechod priuhlednosti mezi heatmapou a body
         'circle-opacity': [
           'interpolate', ['linear'], ['zoom'],
           7, 1,
