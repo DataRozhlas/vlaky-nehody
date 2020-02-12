@@ -2,9 +2,17 @@
 /* eslint-disable quote-props */
 /* eslint-disable new-cap */
 import './byeie' // loučíme se s IE
+import { gCode } from './gcode'
+
+let host = "https://data.irozhlas.cz/vlaky-nehody"
+if (window.location.hostname === "127.0.0.1") {
+  host = "localhost"
+}
 
 const map = new mapboxgl.Map({
   container: 'mapa_nehod',
+  minZoom: 5,
+  maxZoom: 16,
   style: {
     'version': 8,
     'sources': {
@@ -14,7 +22,7 @@ const map = new mapboxgl.Map({
           'https://a.tile.openstreetmap.org/{z}/{x}/{y}.png'
         ],
         'tileSize': 256,
-        'attribution': 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, data <a href="http://www.dicr.cz/">drážní inspekce</a>.'
+        'attribution': 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, geocoder <a href="https://.mapy.cz/">Mapy.cz</a>, data <a href="http://www.dicr.cz/">drážní inspekce</a>.'
       }
     },
     'layers': [
@@ -30,6 +38,7 @@ const map = new mapboxgl.Map({
   center: [15.33507, 49.74175],
   zoom: 6
 })
+map.scrollZoom.disable()
 map.addControl(new mapboxgl.NavigationControl())
 
 class Legend {
@@ -52,7 +61,7 @@ map.addControl(legend, 'top-left')
 map.on('load', () => {
   map.addSource('nehody', {
     'type': 'geojson',
-    'data': './data/data.json'
+    'data': host + '/data/data.json'
   })
 
   map.addLayer(
@@ -160,8 +169,11 @@ function tratName (val) {
 }
 
 map.on('click', e => {
+  map.scrollZoom.enable()
   const d = map.queryRenderedFeatures(e.point, { layers: ['nehody-point'] })
   if (d.length > 0) {
     document.getElementById('legend').innerHTML = `<b>Trať ${tratName(d[0].properties.trat)}, ${d[0].properties.km_h}. km</b><br>Mrtvých: ${d[0].properties.ex}<br>Těžce raněných: ${d[0].properties.tr}<br>Lehce raněných: ${d[0].properties.lr}`
   }
 })
+
+gCode(map)
