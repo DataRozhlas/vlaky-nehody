@@ -1,5 +1,5 @@
 title: "‚Rozhlédnu se vždy dvakrát.‘ Lidé zbytečně umírají na kolejích, ukazuje mapa nehod"
-perex: "Několik desítek lidí v Česku zbytečně každý rok zemře, když si zkracují cestu přes koleje. Na kritických místech ale často chybí ploty nebo podchody. Ukazuje to mapa, kterou vytvořili datoví novináři Českého rozhlasu. Vidět v ní jsou počty mrtvých a zraněných na tratích po celé republice za poslední tři roky. Vstup do kolejiště mimo nástupiště a určená místa je zakázaný a hrozí za to pokuta."
+perex: "Několik desítek lidí v Česku zbytečně každý rok zemře, když si zkracují cestu přes koleje. Na kritických místech ale často chybí ploty nebo podchody. Datoví novináři Českého rozhlasu vytvořili mapu, ve které jsou vidět počty mrtvých a zraněných na tratích po celé republice za poslední tři roky. Vstup do kolejiště mimo nástupiště a určená místa je zakázaný a hrozí za to pokuta."
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/vskoleje_200212-214651_cen.jpg?itok=rSlr4kfW
 coverimg_note: "Foto: Václav Štefan"
 styles: ['https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/1.7.0/mapbox-gl.css']

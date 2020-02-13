@@ -4,9 +4,9 @@
 import './byeie' // loučíme se s IE
 import { gCode } from './gcode'
 
-let host = "https://data.irozhlas.cz/vlaky-nehody"
-if (window.location.hostname === "127.0.0.1") {
-  host = "localhost"
+let host = 'https://data.irozhlas.cz/vlaky-nehody'
+if (window.location.hostname === 'localhost') {
+  host = 'localhost'
 }
 
 const map = new mapboxgl.Map({
