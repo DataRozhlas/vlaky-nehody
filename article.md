@@ -1,5 +1,5 @@
 title: "‚Rozhlédnu se vždy dvakrát.‘ Lidé zbytečně umírají na kolejích, ukazuje mapa nehod"
-perex: "Několik desítek lidí v Česku zbytečně každý rok zemře, když si zkracují cestu přes koleje. Na kritických místech ale často chybí ploty nebo podchody. Datoví novináři Českého rozhlasu vytvořili mapu, ve které jsou vidět počty mrtvých a zraněných na tratích po celé republice za poslední tři roky. Vstup do kolejiště mimo nástupiště a určená místa je zakázaný a hrozí za to pokuta."
+perex: "Několik desítek lidí v Česku zbytečně každý rok zemře, když si zkracují cestu přes koleje. Na kritických místech ale často chybí ploty nebo podchody. Datoví novináři serveru iROZHLAS.cz vytvořili mapu, ve které jsou vidět počty mrtvých a zraněných na tratích po celé republice za poslední tři roky. Vstup do kolejiště mimo nástupiště a určená místa je zakázaný a hrozí za to pokuta."
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/vskoleje_200212-214651_cen.jpg?itok=rSlr4kfW
 coverimg_note: "Foto: Václav Štefan"
 styles: ['https://cdnjs.cloudflare.com/ajax/libs/mapbox-gl/1.7.0/mapbox-gl.css']
@@ -31,7 +31,7 @@ options: [] #wide, noheader (, nopic)
   </div>
 </a>
 
-František právě přešel poslední dvě koleje na Hlavním nádraží v Praze. Ceduli se zákazem minul bez povšimnutí. „Musel bych to hrozně obcházet a zabralo by mi to řádově o deset minut déle. Já jsem opatrný, rozhlédnu se vždy dvakrát,“ říká.
+František právě přešel poslední dvě koleje na hlavním nádraží v Praze. Ceduli se zákazem minul bez povšimnutí. „Musel bych to hrozně obcházet a zabralo by mi to řádově o deset minut déle. Já jsem opatrný, rozhlédnu se vždy dvakrát,“ říká.
 
 Další přecházejí rovnou celé kolejiště. Za zhruba čtvrt hodiny si tady zkrátily cestu mezi nádražím a Žižkovem desítky lidí. Nechtějí jít oklikou pod viaduktem a dál přes Vrchlického sady. Na jaře by se měl začít stavět mnoho let plánovaný podchod.
 
@@ -52,11 +52,11 @@ O 20 kilometrů dál v Říčanech hazardéry chytá u nádraží policie. Na je
 
 „Jsem chtěl zkusit, kudy povede ten nový chodníček,“ vysvětluje starší muž, proč přecházel koleje. Policista za ním musel běžet.
 
-„Policejní orgán Vám může udělit za toto jednání pokutu tisíc korun. Drážní úřad potom případně do deseti tisíc. Nicméně, vyřešíme to s Vámi domluvou. Souhlasíte?“ říká policista. „Jo, jo souhlasím,“ odpovídá muž.
+„Policejní orgán vám může udělit za toto jednání pokutu tisíc korun. Drážní úřad potom případně do deseti tisíc. Nicméně vyřešíme to s vámi domluvou. Souhlasíte?“ říká policista. „Jo, jo, souhlasím,“ odpovídá muž.
 
 ## 43 metrů za sekundu
 
-Za poslední tři roky zemřeli u vlakového nádraží v Říčanech dva lidé. Třeba v Blansku v Jihomoravském kraji to bylo podle dat Drážní inspekce za stejnou dobu o jednoho víc. Přes zákaz se tam chodí koupat do zatopeného lomu, který lemují koleje.
+Za poslední tři roky zemřeli u vlakového nádraží v Říčanech dva lidé. Třeba v Blansku v Jihomoravském kraji to bylo podle dat drážní inspekce za stejnou dobu o jednoho víc. Přes zákaz se tam chodí koupat do zatopeného lomu, který lemují koleje.
 
 <img width="100%" src="https://www.irozhlas.cz/sites/default/files/styles/zpravy_fotogalerie_large/public/uploader/ricany1_200212-195657_hag.jpg?itok=iXrlHsM5">
 
@@ -66,9 +66,9 @@ Ve městě je navíc jediný zanedbaný podchod a závory na přejezdu bývají 
 
 „V rámci toho přemostění by byl chodníček a potom by byl podchod tady v tom prostoru současného přejezdu, tak by byly pro chodce dvě cesty,“ popisuje Crha.
 
-Mapa střetů vlaků s osobami, kterou vytvořili datoví novináři Českého rozhlasu, ukazuje, že nejvíc lidí umírá na koridorech a ve velkých městech. Jde o údaje o nehodách za poslední tři roky, které má k dispozici Drážní inspekce. Generální inspektor Jan Kučera před přebíháním trati důrazně varuje.
+Mapa střetů vlaků s osobami, kterou vytvořili datoví novináři serveru iROZHLAS.cz, ukazuje, že nejvíc lidí umírá na koridorech a ve velkých městech. Jde o údaje o nehodách za poslední tři roky, které má k dispozici drážní inspekce. Statistiky si vede taky policie a Správa železnic. Jejich čísla jsou o něco vyšší, protože do nich zahrnují i mrtvé na přejezdech. Ty v mapě nejsou. Například policie uvedla, že ve zmíněném Blansku zemřelo za posledních pět let na kolejích 15 lidí.
 
-„My bychom rádi zdůraznili, že ten vlak jede až 43 metrů za sekundu a pokud je zejména mlha a není dobře slyšet, tak ten člověk nestihne přejít koleje, i když se před tím rozhlédne,“ říká Jan Kučera.
+„Rádi bychom zdůraznili, že ten vlak jede až 43 metrů za sekundu a pokud je zejména mlha a není dobře slyšet, tak ten člověk nestihne přejít koleje, i když se před tím rozhlédne,“ říká Jan Kučera.
 
 ## Vysoký podíl sebevražd
 
@@ -107,6 +107,6 @@ Podle Správy železnic v mnoha případech nezabrání tragédiím při přech�
 
 Dodává, že stavba zábran bývá součástí investic, jenže ani to vždy nepomůže. Lidé někdy ploty prostříhají, nebo rozeberou i zeď. Na vybudování bezpečnějšího přechodu přes trať se může dohodnout město nebo obec se Správou železnic. Ministerstvo dopravy lidi vyzvalo, aby neriskovali. K dalším krokům se ale nechystá.
 
-„Nikdo nemá sebemenší zájem neumožnit lidem bezpečně a komfortně přejít koleje, musí to však být z pohledu bezpečnosti a plynulosti provozu mnoha tunových vlaků s dlouhou brzdnou dráhou možné a ufinancovatelné,“ doplňuje mluvčí Ministerstva dopravy František Jemelka.
+„Nikdo nemá sebemenší zájem neumožnit lidem bezpečně a komfortně přejít koleje, musí to však být z pohledu bezpečnosti a plynulosti provozu mnoha tunových vlaků s dlouhou brzdnou dráhou možné a ufinancovatelné,“ doplňuje mluvčí ministerstva dopravy František Jemelka.
 
 Problém s přecházením tratí řeší například v Rusku. Jen v Moskevské oblasti, která má zhruba sedm a půl milionů obyvatel, loni zemřelo na kolejích 391 lidí. Vznikla tam kvůli tomu zvláštní pracovní skupina a na místech s nejvyšším počtem obětí mají vzniknout nové přechody a ploty.
