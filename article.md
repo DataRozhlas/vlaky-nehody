@@ -66,7 +66,7 @@ Ve městě je navíc jediný zanedbaný podchod a závory na přejezdu bývají 
 
 „V rámci toho přemostění by byl chodníček a potom by byl podchod tady v tom prostoru současného přejezdu, tak by byly pro chodce dvě cesty,“ popisuje Crha.
 
-Mapa střetů vlaků s osobami, kterou vytvořili datoví novináři serveru iROZHLAS.cz, ukazuje, že nejvíc lidí umírá na koridorech a ve velkých městech. Jde o údaje o nehodách za poslední tři roky, které má k dispozici drážní inspekce. Statistiky si vede taky policie a Správa železnic. Jejich čísla jsou o něco vyšší, protože do nich zahrnují i mrtvé na přejezdech. Ty v mapě nejsou. Například policie uvedla, že ve zmíněném Blansku zemřelo za posledních pět let na kolejích 15 lidí.
+Mapa střetů vlaků s osobami, kterou vytvořili datoví novináři Českého rozhlasu, ukazuje, že nejvíc lidí umírá na koridorech a ve velkých městech. Jde o údaje o nehodách za poslední tři roky, které má k dispozici Drážní inspekce. Statistiky si vede taky policie a Správa železnic. Jejich čísla jsou o něco vyšší, protože do nich zahrnují i mrtvé na přejezdech. Ty v mapě nejsou. Například policie uvedla, že ve zmíněném Blansku zemřelo za poslední tři roky na kolejích 8 lidí.
 
 „Rádi bychom zdůraznili, že ten vlak jede až 43 metrů za sekundu a pokud je zejména mlha a není dobře slyšet, tak ten člověk nestihne přejít koleje, i když se před tím rozhlédne,“ říká Jan Kučera.
 
