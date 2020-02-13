@@ -22,7 +22,7 @@ const map = new mapboxgl.Map({
           'https://a.tile.openstreetmap.org/{z}/{x}/{y}.png'
         ],
         'tileSize': 256,
-        'attribution': 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, geocoder <a href="https://.mapy.cz/">Mapy.cz</a>, data <a href="http://www.dicr.cz/">drážní inspekce</a>.'
+        'attribution': 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, geocoder <a href="https://.mapy.cz/">Mapy.cz</a>, data <a href="http://www.dicr.cz/">Drážní inspekce ČR</a>.'
       }
     },
     'layers': [
